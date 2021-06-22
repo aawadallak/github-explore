@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="#" target="_blank">Live Demo</a>
+ </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#--sobre-o-projeto">Sobre</a> • 
+ <a href="#--tecnologias-utilizadas">Tecnologias Utilizadas</a> • 
+ <a href="#--como-executar-o-projeto">Como executar o projeto</a> • 
+ <a href="#-como-contribuir-com-o-projeto">Como contribuir com o projeto?</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-## Available Scripts
+<hr />
 
-In the project directory, you can run:
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/74802742/122844955-165f1b80-d2d9-11eb-9528-4b17ac3aa9f1.gif" width="80%" heigth="80%" alt="nothing here">
+</p>
 
-### `yarn start`
+### 💻  Sobre o projeto
+<p align="center">
+  O projeto foi baseado no design disponibilizado pela <a href="https://github.com/Rocketseat">Rocketseat</a>. A ideia é buscar via Axios na API do GitHub os repositórios que o usuários buscar e retornar o mesmo em uma lista. Podendo o usuário clicar no repositório que ele digitou e acessar as informações sobre o repositório em questão.
+</p>
+<hr />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🛠  Tecnologias utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🚀  Como executar o projeto 
 
-### `yarn build`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧭 Web
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Clone este repositório
+$ git clone git@github.com:aawadallak/GitHub-Explore
 
-### `yarn eject`
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd GitHub-Explore
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000  
+  
+Enjoy!
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💪 Como contribuir com o projeto
 
-## Learn More
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
+## 👨🏻‍🎓 Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/aawadallak">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/74802742?v=4" width="100px;" alt=""/>
+</a>
+
+Me mande uma mensagem e ficarei feliz em te ajudar. 😄
+
+[![Youtube Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=http)](mailto:alexandre.awadallak@gmail.com)
+
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/alexandre-yasser-awadallak-1900951b0/)](https://www.linkedin.com/in/alexandre-awadallak)
+
+[![Telegram Badge](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&link=https://t.me/aawadallak)](https://t.me/aawadallak)
+
+
+## 📝 Licença
+
+Este projeto está sobe a licença [MIT](./LICENSE).
+
